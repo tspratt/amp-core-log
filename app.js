@@ -70,9 +70,9 @@ app.configure(function(){
 
 // Allow CORS
 app.all('/*', function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With, TD-Authentication, Content-Type");
-    next();
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With, TD-Authentication, Content-Type");
+	next();
 });
 
 
